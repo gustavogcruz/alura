@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="SEGMERCADO" directorySegmentName="seg_0" id="42833086-52CB-84DA-CB9C-F1852645A713">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:41 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+<schemaObject>FFBC30CA-142B-1A03-A040-4D0EA302DFBB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>5C4633D5-6C47-33B0-1FA4-8E2930473CFA</segment>
+<tableSpace>DF7E7493-48C1-802E-071F-7566A5C9DC8F</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DESCRICAO" id="DD912875-119A-C980-4F63-A7E85273956B">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:41 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="E2AAC06E-368B-7C35-9BA8-75FD02E19239">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:41 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SEGMERCACO_ID_PK" id="8E0D4422-7B31-401B-507C-4CD15AC4F8C1">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:43 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+<schemaObject>FFBC30CA-142B-1A03-A040-4D0EA302DFBB</schemaObject>
+<segment>44C78527-5732-F8E7-E6AC-5C619140E929</segment>
+<tableSpace>DF7E7493-48C1-802E-071F-7566A5C9DC8F</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SEGMERCACO_ID_PK" id="7DF3A274-AB46-C432-C394-756090DCF2B1">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:43 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+<segment>44C78527-5732-F8E7-E6AC-5C619140E929</segment>
+<tableSpace>DF7E7493-48C1-802E-071F-7566A5C9DC8F</tableSpace>
+<existingIndex>8E0D4422-7B31-401B-507C-4CD15AC4F8C1</existingIndex>
+<indexSegment>44C78527-5732-F8E7-E6AC-5C619140E929</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

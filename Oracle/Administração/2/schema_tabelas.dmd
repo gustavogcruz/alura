@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="schema_tabelas" id="32C28E99-5210-23CA-64AF-E89EBD080955" version="3.5">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-12 22:17:24 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>32C28E99-5210-23CA-64AF-E89EBD080955</designId>
+</OSDM_Design>

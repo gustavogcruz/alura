@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CLIENTE" directorySegmentName="seg_0" id="81B8D87E-352D-5CC5-780C-7CB6C927BDA1">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:32 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+<schemaObject>FFBC30CA-142B-1A03-A040-4D0EA302DFBB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>5C4633D5-6C47-33B0-1FA4-8E2930473CFA</segment>
+<tableSpace>DF7E7493-48C1-802E-071F-7566A5C9DC8F</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="24B4AC67-CE74-A523-45FC-CE4CD923DC40">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:32 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CATEGORIA" id="32286B34-DD4F-4306-A09A-39DCD588D101">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:32 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CNPJ" id="4E4431D6-F25E-25FE-2A36-971A2075DAA1">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:32 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SEGMERCADO_ID" id="543CD7C8-58A4-3313-531C-A0C9C3F78094">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:32 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATA_INCLUSAO" id="B73D07DA-AAB8-F3DD-A993-5B0FDC50A08E">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:32 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FATURAMENTO_PREVISTO" id="BAFEB033-412F-BDAE-BD18-54035983E41E">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:32 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RAZAO_SOCIAL" id="FC6F81A3-33AE-712F-0CD9-3CE37C6B3044">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:32 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CLIENTE_ID_PK" id="C6ED6784-885D-A2A8-092E-3E2EA1A1774E">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:33 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+<schemaObject>FFBC30CA-142B-1A03-A040-4D0EA302DFBB</schemaObject>
+<segment>44C78527-5732-F8E7-E6AC-5C619140E929</segment>
+<tableSpace>DF7E7493-48C1-802E-071F-7566A5C9DC8F</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CLIENTE_SEGMERCADO_ID" id="71EA46C2-EB5A-80FF-59CA-CD3FEF6AFBAF">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:34 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CLIENTE_ID_PK" id="4B4A5DFF-6AFA-B9AD-50DC-F31AE1785AB0">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:34 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+<segment>44C78527-5732-F8E7-E6AC-5C619140E929</segment>
+<tableSpace>DF7E7493-48C1-802E-071F-7566A5C9DC8F</tableSpace>
+<existingIndex>C6ED6784-885D-A2A8-092E-3E2EA1A1774E</existingIndex>
+<indexSegment>44C78527-5732-F8E7-E6AC-5C619140E929</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="FFBC30CA-142B-1A03-A040-4D0EA302DFBB" name="CURSOPLSQL" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.SchemaObject" propertyParentId="534535FE-5F29-4F69-9A8B-480F586487BE" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="81B8D87E-352D-5CC5-780C-7CB6C927BDA1" name="CLIENTE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="534535FE-5F29-4F69-9A8B-480F586487BE" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="42833086-52CB-84DA-CB9C-F1852645A713" name="SEGMERCADO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="534535FE-5F29-4F69-9A8B-480F586487BE" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="1D5B46DD-CCF9-5497-6256-64DD23935C02" name="CLIENTE_SEGMERCADO_ID" seqName="seg_0" containerID="81B8D87E-352D-5CC5-780C-7CB6C927BDA1" refContainerID="42833086-52CB-84DA-CB9C-F1852645A713" propertyClassName="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" propertyParentId="534535FE-5F29-4F69-9A8B-480F586487BE" propertySourceId="42833086-52CB-84DA-CB9C-F1852645A713" propertyTargetId="81B8D87E-352D-5CC5-780C-7CB6C927BDA1"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

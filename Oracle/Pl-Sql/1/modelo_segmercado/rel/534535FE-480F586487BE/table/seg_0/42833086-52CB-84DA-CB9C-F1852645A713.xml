@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="42833086-52CB-84DA-CB9C-F1852645A713" schemaObject="FFBC30CA-142B-1A03-A040-4D0EA302DFBB" name="SEGMERCADO">
+<sourceConnName>Oracle_21C_localhost_novoUsuario</sourceConnName>
+<sourceObjSchema>CURSOPLSQL</sourceObjSchema>
+<sourceObjName>SEGMERCADO</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:41 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="E2AAC06E-368B-7C35-9BA8-75FD02E19239">
+<sourceConnName>Oracle_21C_localhost_novoUsuario</sourceConnName>
+<sourceObjSchema>SEGMERCADO</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:41 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRICAO" id="DD912875-119A-C980-4F63-A7E85273956B">
+<sourceConnName>Oracle_21C_localhost_novoUsuario</sourceConnName>
+<sourceObjSchema>SEGMERCADO</sourceObjSchema>
+<sourceObjName>DESCRICAO</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:41 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7DF3A274-AB46-C432-C394-756090DCF2B1" name="SEGMERCACO_ID_PK">
+<sourceConnName>Oracle_21C_localhost_novoUsuario</sourceConnName>
+<sourceObjSchema>CURSOPLSQL</sourceObjSchema>
+<sourceObjName>SEGMERCACO_ID_PK</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:43 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2AAC06E-368B-7C35-9BA8-75FD02E19239"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E0D4422-7B31-401B-507C-4CD15AC4F8C1" schemaObject="FFBC30CA-142B-1A03-A040-4D0EA302DFBB" name="SEGMERCACO_ID_PK">
+<sourceConnName>Oracle_21C_localhost_novoUsuario</sourceConnName>
+<sourceObjSchema>CURSOPLSQL</sourceObjSchema>
+<sourceObjName>SEGMERCACO_ID_PK</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:43 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2AAC06E-368B-7C35-9BA8-75FD02E19239"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

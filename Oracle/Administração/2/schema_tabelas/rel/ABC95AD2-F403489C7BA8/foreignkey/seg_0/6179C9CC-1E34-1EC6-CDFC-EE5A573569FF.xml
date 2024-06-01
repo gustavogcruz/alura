@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6179C9CC-1E34-1EC6-CDFC-EE5A573569FF" containerWithKeyObject="A84C7CC1-CEB0-AC9E-E6BD-F7D31AB50155" localFKIndex="3C38927B-92D4-F22F-B998-C7DD881E80FD" name="FK_NOTAS_FISCAIS1">
+<sourceConnName>Oracle_21C_localhost_system</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>FK_NOTAS_FISCAIS1</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:00 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+<referredTableLongName>SYSTEM.TABELA_DE_VENDEDORES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>31B86BE7-8CEB-DBFF-26A9-2724C191E608</referredTableID>
+<keyObject>D9F10BFE-5D4C-9849-B92A-55D056496176</keyObject>
+<referredKeyID>D9F10BFE-5D4C-9849-B92A-55D056496176</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MATRICULA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

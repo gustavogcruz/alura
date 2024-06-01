@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelo_segmercado" id="D6BE1998-0D96-E578-E2E3-C572D8481E47" version="3.5">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:41:46 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D6BE1998-0D96-E578-E2E3-C572D8481E47</designId>
+</OSDM_Design>

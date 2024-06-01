@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TABELA_DE_VENDEDORES" directorySegmentName="seg_0" id="31B86BE7-8CEB-DBFF-26A9-2724C191E608">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:36 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+<schemaObject>94A89C8D-734D-EE1E-DAA8-68C3C810BEA3</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>B7F12816-0875-FF34-B499-0940011127AD</segment>
+<tableSpace>0A922F9F-98BF-3B69-D940-E744BFA72AB3</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PERCENTUAL_COMISSAO" id="0E29610B-DE06-AAC8-4F48-914702FE39F4">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:36 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MATRICULA" id="2C7947D3-37F8-6DD1-0756-430904F85F0B">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:36 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DE_FERIAS" id="5F0A48CA-1277-B4A2-0C4F-E8200C2CB1B5">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:36 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATA_ADMISSAO" id="80B7CD01-F837-2970-AC2F-2E5D7759D7E8">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:36 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BAIRRO" id="F999FC4A-EB75-9838-4509-B80892BBC17D">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:36 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOME" id="FB92F6B5-7868-67D4-CC8F-91E3DA760FA1">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:36 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_TABELA_DE_VENDEDORES" id="0A888CC6-F2AF-40F6-403E-564A3D4560B4">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:36 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+<schemaObject>94A89C8D-734D-EE1E-DAA8-68C3C810BEA3</schemaObject>
+<segment>7E65D2B4-25C6-3B8B-50B2-B74A14009149</segment>
+<tableSpace>0A922F9F-98BF-3B69-D940-E744BFA72AB3</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_TABELA_DE_VENDEDORES" id="D9F10BFE-5D4C-9849-B92A-55D056496176">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:36 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+<segment>7E65D2B4-25C6-3B8B-50B2-B74A14009149</segment>
+<tableSpace>0A922F9F-98BF-3B69-D940-E744BFA72AB3</tableSpace>
+<existingIndex>0A888CC6-F2AF-40F6-403E-564A3D4560B4</existingIndex>
+<indexSegment>7E65D2B4-25C6-3B8B-50B2-B74A14009149</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

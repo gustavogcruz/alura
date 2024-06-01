@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TABELA_DE_CLIENTES" directorySegmentName="seg_0" id="7FF00206-CBAE-C23F-11A6-50E045D6807D">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:28 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+<schemaObject>94A89C8D-734D-EE1E-DAA8-68C3C810BEA3</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>B7F12816-0875-FF34-B499-0940011127AD</segment>
+<tableSpace>0A922F9F-98BF-3B69-D940-E744BFA72AB3</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="IDADE" id="22519148-A591-CEDA-6D1E-81AC197D60B9">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:28 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ENDERECO_2" id="413810BA-C07D-C17F-BB7D-B60192156363">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:28 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ENDERECO_1" id="4D253776-CD20-1B2E-921C-171D861925C4">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:28 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOME" id="674BF53F-23F0-771A-DF1E-FDD19A3F549E">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:28 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SEXO" id="6D075546-EDF5-0CEF-C87C-5096118931BE">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:28 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESTADO" id="7FEB66B9-5907-1E02-C11F-CB15DE8975F7">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:28 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BAIRRO" id="81E62577-2627-4360-9F89-3DA89371C7B2">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:28 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATA_DE_NASCIMENTO" id="8C33EE00-CEA6-81DD-23F0-F96E5AD0B676">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:28 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRIMEIRA_COMPRA" id="980D6A73-969A-9A8C-0EB7-94A3E61B5BB8">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:28 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VOLUME_DE_COMPRA" id="C6CC0ABA-950B-72EB-640F-5632BE5E9C15">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:28 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LIMITE_DE_CREDITO" id="DA12CF1C-13F4-47FD-234D-6C0C7B3F18F1">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:28 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CEP" id="E28FF71B-294A-9F4E-ECE7-39916FDAE43A">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:28 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CIDADE" id="F36660AF-1BB2-B341-DAEB-D63A762D7716">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:28 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CPF" id="FE7ACC56-5538-8BFF-DE11-F963A68FAA8D">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:28 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_TABELA_DE_CLIENTES" id="602E2AC9-BD58-252E-2FDE-08887F5C33B2">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:28 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+<schemaObject>94A89C8D-734D-EE1E-DAA8-68C3C810BEA3</schemaObject>
+<segment>7E65D2B4-25C6-3B8B-50B2-B74A14009149</segment>
+<tableSpace>0A922F9F-98BF-3B69-D940-E744BFA72AB3</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_TABELA_DE_CLIENTES" id="13010B76-1862-C0FF-D73C-9D8E59073551">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:28 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+<segment>7E65D2B4-25C6-3B8B-50B2-B74A14009149</segment>
+<tableSpace>0A922F9F-98BF-3B69-D940-E744BFA72AB3</tableSpace>
+<existingIndex>602E2AC9-BD58-252E-2FDE-08887F5C33B2</existingIndex>
+<indexSegment>7E65D2B4-25C6-3B8B-50B2-B74A14009149</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>
