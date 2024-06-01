@@ -1,0 +1,22 @@
+<!-- hello/index.html -->
+
+<!doctype html>
+<html lang="pt" ng-app="Hello">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World</title>
+</head>
+<body ng-controller="HelloController">
+    <button ng-click="incrementar()">Clicar</button>
+    <label>Você clicou: {{total}} veze(s)</label>
+
+    <footer ng-controller="RodapeController">
+        {{copyright}}
+    </footer>
+
+    <script src="/js126/angular.min.js"></script>
+    <script src="/js126/main.js"></script>
+    <script src="/js126/HelloController.js"></script>
+    <script src="/js126/RodapeController.js"></script>
+</body>
+</html>
