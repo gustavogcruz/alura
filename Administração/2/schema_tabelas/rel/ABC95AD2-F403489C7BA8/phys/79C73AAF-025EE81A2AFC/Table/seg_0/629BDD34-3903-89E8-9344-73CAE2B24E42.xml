@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ITENS_NOTAS_FISCAIS" directorySegmentName="seg_0" id="629BDD34-3903-89E8-9344-73CAE2B24E42">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:50:39 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+<schemaObject>94A89C8D-734D-EE1E-DAA8-68C3C810BEA3</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>B7F12816-0875-FF34-B499-0940011127AD</segment>
+<tableSpace>0A922F9F-98BF-3B69-D940-E744BFA72AB3</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NUMERO" id="1C7C1F9D-EA54-A4AA-C794-028247D64A24">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:50:40 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRECO" id="2D657606-DC4A-4B9C-88AB-FFA957C489F7">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:50:40 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_DO_PRODUTO" id="3AC6CB78-8975-63D2-F741-10EC63D02FC2">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:50:40 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="QUANTIDADE" id="3ECC4D26-0126-2C41-9AF7-EF38F6581C49">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:50:40 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_ITENS_NOTAS_FISCAIS" id="0A4597C0-9D22-EA40-8DD4-902537A5B3F6">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:50:41 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+<schemaObject>94A89C8D-734D-EE1E-DAA8-68C3C810BEA3</schemaObject>
+<segment>7E65D2B4-25C6-3B8B-50B2-B74A14009149</segment>
+<tableSpace>0A922F9F-98BF-3B69-D940-E744BFA72AB3</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_ITENS_NOTAS_FISCAIS2" id="2A741E27-0418-6276-E59D-D7B9DDB6D251">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:50:41 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_ITENS_NOTAS_FISCAIS1" id="750FA460-F9A7-8F1B-F5E6-1DC7E7DA4776">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:50:41 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_ITENS_NOTAS_FISCAIS" id="219F981F-C82D-E46F-A088-EBD761CC7B5C">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:50:41 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+<segment>7E65D2B4-25C6-3B8B-50B2-B74A14009149</segment>
+<tableSpace>0A922F9F-98BF-3B69-D940-E744BFA72AB3</tableSpace>
+<existingIndex>0A4597C0-9D22-EA40-8DD4-902537A5B3F6</existingIndex>
+<indexSegment>7E65D2B4-25C6-3B8B-50B2-B74A14009149</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

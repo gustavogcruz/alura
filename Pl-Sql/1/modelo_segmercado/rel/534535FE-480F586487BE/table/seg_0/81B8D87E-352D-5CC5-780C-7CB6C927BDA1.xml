@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="81B8D87E-352D-5CC5-780C-7CB6C927BDA1" schemaObject="FFBC30CA-142B-1A03-A040-4D0EA302DFBB" name="CLIENTE">
+<sourceConnName>Oracle_21C_localhost_novoUsuario</sourceConnName>
+<sourceObjSchema>CURSOPLSQL</sourceObjSchema>
+<sourceObjName>CLIENTE</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:32 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="24B4AC67-CE74-A523-45FC-CE4CD923DC40">
+<sourceConnName>Oracle_21C_localhost_novoUsuario</sourceConnName>
+<sourceObjSchema>CLIENTE</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:32 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RAZAO_SOCIAL" id="FC6F81A3-33AE-712F-0CD9-3CE37C6B3044">
+<sourceConnName>Oracle_21C_localhost_novoUsuario</sourceConnName>
+<sourceObjSchema>CLIENTE</sourceObjSchema>
+<sourceObjName>RAZAO_SOCIAL</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:32 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CNPJ" id="4E4431D6-F25E-25FE-2A36-971A2075DAA1">
+<sourceConnName>Oracle_21C_localhost_novoUsuario</sourceConnName>
+<sourceObjSchema>CLIENTE</sourceObjSchema>
+<sourceObjName>CNPJ</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:32 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEGMERCADO_ID" id="543CD7C8-58A4-3313-531C-A0C9C3F78094">
+<sourceConnName>Oracle_21C_localhost_novoUsuario</sourceConnName>
+<sourceObjSchema>CLIENTE</sourceObjSchema>
+<sourceObjName>SEGMERCADO_ID</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:32 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D5B46DD-CCF9-5497-6256-64DD23935C02" referredColumn="E2AAC06E-368B-7C35-9BA8-75FD02E19239"/>
+</associations>
+</Column>
+<Column name="DATA_INCLUSAO" id="B73D07DA-AAB8-F3DD-A993-5B0FDC50A08E">
+<sourceConnName>Oracle_21C_localhost_novoUsuario</sourceConnName>
+<sourceObjSchema>CLIENTE</sourceObjSchema>
+<sourceObjName>DATA_INCLUSAO</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:32 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FATURAMENTO_PREVISTO" id="BAFEB033-412F-BDAE-BD18-54035983E41E">
+<sourceConnName>Oracle_21C_localhost_novoUsuario</sourceConnName>
+<sourceObjSchema>CLIENTE</sourceObjSchema>
+<sourceObjName>FATURAMENTO_PREVISTO</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:32 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORIA" id="32286B34-DD4F-4306-A09A-39DCD588D101">
+<sourceConnName>Oracle_21C_localhost_novoUsuario</sourceConnName>
+<sourceObjSchema>CLIENTE</sourceObjSchema>
+<sourceObjName>CATEGORIA</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:32 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B4A5DFF-6AFA-B9AD-50DC-F31AE1785AB0" name="CLIENTE_ID_PK">
+<sourceConnName>Oracle_21C_localhost_novoUsuario</sourceConnName>
+<sourceObjSchema>CURSOPLSQL</sourceObjSchema>
+<sourceObjName>CLIENTE_ID_PK</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:34 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24B4AC67-CE74-A523-45FC-CE4CD923DC40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6ED6784-885D-A2A8-092E-3E2EA1A1774E" schemaObject="FFBC30CA-142B-1A03-A040-4D0EA302DFBB" name="CLIENTE_ID_PK">
+<sourceConnName>Oracle_21C_localhost_novoUsuario</sourceConnName>
+<sourceObjSchema>CURSOPLSQL</sourceObjSchema>
+<sourceObjName>CLIENTE_ID_PK</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:33 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24B4AC67-CE74-A523-45FC-CE4CD923DC40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71EA46C2-EB5A-80FF-59CA-CD3FEF6AFBAF" name="CLIENTE_SEGMERCADO_ID">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:34 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="543CD7C8-58A4-3313-531C-A0C9C3F78094"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

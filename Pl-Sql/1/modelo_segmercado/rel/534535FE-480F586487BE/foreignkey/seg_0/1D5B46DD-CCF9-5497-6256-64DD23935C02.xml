@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1D5B46DD-CCF9-5497-6256-64DD23935C02" containerWithKeyObject="81B8D87E-352D-5CC5-780C-7CB6C927BDA1" localFKIndex="71EA46C2-EB5A-80FF-59CA-CD3FEF6AFBAF" name="CLIENTE_SEGMERCADO_ID">
+<sourceConnName>Oracle_21C_localhost_novoUsuario</sourceConnName>
+<sourceObjSchema>CURSOPLSQL</sourceObjSchema>
+<sourceObjName>CLIENTE_SEGMERCADO_ID</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:34 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+<referredTableLongName>CURSOPLSQL.SEGMERCADO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>42833086-52CB-84DA-CB9C-F1852645A713</referredTableID>
+<keyObject>7DF3A274-AB46-C432-C394-756090DCF2B1</keyObject>
+<referredKeyID>7DF3A274-AB46-C432-C394-756090DCF2B1</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

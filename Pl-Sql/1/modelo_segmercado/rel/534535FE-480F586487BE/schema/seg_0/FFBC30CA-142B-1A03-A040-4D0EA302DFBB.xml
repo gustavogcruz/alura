@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="CURSOPLSQL" directorySegmentName="seg_0" id="FFBC30CA-142B-1A03-A040-4D0EA302DFBB">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:32 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+</SchemaObject>

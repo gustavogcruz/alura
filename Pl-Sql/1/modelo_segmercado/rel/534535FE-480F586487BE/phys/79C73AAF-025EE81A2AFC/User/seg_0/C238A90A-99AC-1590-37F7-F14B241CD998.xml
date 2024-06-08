@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="CURSOPLSQL" directorySegmentName="seg_0" id="C238A90A-99AC-1590-37F7-F14B241CD998">
+<sourceConnName>Oracle_21C_localhost_novoUsuario</sourceConnName>
+<sourceObjName>CURSOPLSQL</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:54:32 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+<schemaObject>FFBC30CA-142B-1A03-A040-4D0EA302DFBB</schemaObject>
+<defTableSpace>DF7E7493-48C1-802E-071F-7566A5C9DC8F</defTableSpace>
+</UserOraclev10g>

@@ -1,0 +1,254 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7FF00206-CBAE-C23F-11A6-50E045D6807D" schemaObject="94A89C8D-734D-EE1E-DAA8-68C3C810BEA3" name="TABELA_DE_CLIENTES">
+<sourceConnName>Oracle_21C_localhost_system</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>TABELA_DE_CLIENTES</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:28 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CPF" id="FE7ACC56-5538-8BFF-DE11-F963A68FAA8D">
+<sourceConnName>Oracle_21C_localhost_system</sourceConnName>
+<sourceObjSchema>TABELA_DE_CLIENTES</sourceObjSchema>
+<sourceObjName>CPF</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:28 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="674BF53F-23F0-771A-DF1E-FDD19A3F549E">
+<sourceConnName>Oracle_21C_localhost_system</sourceConnName>
+<sourceObjSchema>TABELA_DE_CLIENTES</sourceObjSchema>
+<sourceObjName>NOME</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:28 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENDERECO_1" id="4D253776-CD20-1B2E-921C-171D861925C4">
+<sourceConnName>Oracle_21C_localhost_system</sourceConnName>
+<sourceObjSchema>TABELA_DE_CLIENTES</sourceObjSchema>
+<sourceObjName>ENDERECO_1</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:28 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENDERECO_2" id="413810BA-C07D-C17F-BB7D-B60192156363">
+<sourceConnName>Oracle_21C_localhost_system</sourceConnName>
+<sourceObjSchema>TABELA_DE_CLIENTES</sourceObjSchema>
+<sourceObjName>ENDERECO_2</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:28 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BAIRRO" id="81E62577-2627-4360-9F89-3DA89371C7B2">
+<sourceConnName>Oracle_21C_localhost_system</sourceConnName>
+<sourceObjSchema>TABELA_DE_CLIENTES</sourceObjSchema>
+<sourceObjName>BAIRRO</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:28 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIDADE" id="F36660AF-1BB2-B341-DAEB-D63A762D7716">
+<sourceConnName>Oracle_21C_localhost_system</sourceConnName>
+<sourceObjSchema>TABELA_DE_CLIENTES</sourceObjSchema>
+<sourceObjName>CIDADE</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:28 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="7FEB66B9-5907-1E02-C11F-CB15DE8975F7">
+<sourceConnName>Oracle_21C_localhost_system</sourceConnName>
+<sourceObjSchema>TABELA_DE_CLIENTES</sourceObjSchema>
+<sourceObjName>ESTADO</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:28 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CEP" id="E28FF71B-294A-9F4E-ECE7-39916FDAE43A">
+<sourceConnName>Oracle_21C_localhost_system</sourceConnName>
+<sourceObjSchema>TABELA_DE_CLIENTES</sourceObjSchema>
+<sourceObjName>CEP</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:28 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_DE_NASCIMENTO" id="8C33EE00-CEA6-81DD-23F0-F96E5AD0B676">
+<sourceConnName>Oracle_21C_localhost_system</sourceConnName>
+<sourceObjSchema>TABELA_DE_CLIENTES</sourceObjSchema>
+<sourceObjName>DATA_DE_NASCIMENTO</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:28 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDADE" id="22519148-A591-CEDA-6D1E-81AC197D60B9">
+<sourceConnName>Oracle_21C_localhost_system</sourceConnName>
+<sourceObjSchema>TABELA_DE_CLIENTES</sourceObjSchema>
+<sourceObjName>IDADE</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:28 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEXO" id="6D075546-EDF5-0CEF-C87C-5096118931BE">
+<sourceConnName>Oracle_21C_localhost_system</sourceConnName>
+<sourceObjSchema>TABELA_DE_CLIENTES</sourceObjSchema>
+<sourceObjName>SEXO</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:28 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LIMITE_DE_CREDITO" id="DA12CF1C-13F4-47FD-234D-6C0C7B3F18F1">
+<sourceConnName>Oracle_21C_localhost_system</sourceConnName>
+<sourceObjSchema>TABELA_DE_CLIENTES</sourceObjSchema>
+<sourceObjName>LIMITE_DE_CREDITO</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:28 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>126</dataTypePrecision>
+<ownDataTypeParameters>,126,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VOLUME_DE_COMPRA" id="C6CC0ABA-950B-72EB-640F-5632BE5E9C15">
+<sourceConnName>Oracle_21C_localhost_system</sourceConnName>
+<sourceObjSchema>TABELA_DE_CLIENTES</sourceObjSchema>
+<sourceObjName>VOLUME_DE_COMPRA</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:28 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>126</dataTypePrecision>
+<ownDataTypeParameters>,126,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRIMEIRA_COMPRA" id="980D6A73-969A-9A8C-0EB7-94A3E61B5BB8">
+<sourceConnName>Oracle_21C_localhost_system</sourceConnName>
+<sourceObjSchema>TABELA_DE_CLIENTES</sourceObjSchema>
+<sourceObjName>PRIMEIRA_COMPRA</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:28 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="13010B76-1862-C0FF-D73C-9D8E59073551" name="PK_TABELA_DE_CLIENTES">
+<sourceConnName>Oracle_21C_localhost_system</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_TABELA_DE_CLIENTES</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:28 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE7ACC56-5538-8BFF-DE11-F963A68FAA8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="602E2AC9-BD58-252E-2FDE-08887F5C33B2" schemaObject="94A89C8D-734D-EE1E-DAA8-68C3C810BEA3" name="PK_TABELA_DE_CLIENTES">
+<sourceConnName>Oracle_21C_localhost_system</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_TABELA_DE_CLIENTES</sourceObjName>
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2024-04-13 18:51:28 UTC</createdTime>
+<ownerDesignName>schema_tabelas</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE7ACC56-5538-8BFF-DE11-F963A68FAA8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

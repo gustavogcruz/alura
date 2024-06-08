@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_2" id="534535FE-5F29-4F69-9A8B-480F586487BE" mainViewID="303A219E-0D27-B377-C007-9C54EE6EB43D">
+<createdBy>gustavo.cruz</createdBy>
+<createdTime>2023-10-03 20:53:59 UTC</createdTime>
+<ownerDesignName>modelo_segmercado</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>Oracle_21C_localhost_novoUsuario</connName>
+<connUser>CURSOPLSQL</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>
