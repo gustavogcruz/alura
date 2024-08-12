@@ -1,8 +1,9 @@
 //private - apenas visível dentro da classe
 //protected - visível dentro da classe e também para as filhas (relacionado com a herança)
 //public - visível em todo lugar
-// Não pode instanciar essa classe, é abstrata
 
+
+// Não pode instanciar essa classe, é abstrata. Não é obrigado a implementar todos os metodos
 public abstract class Funcionario {
 
 	private String nome;
@@ -13,7 +14,7 @@ public abstract class Funcionario {
 
 	}
 	
-	// metodo sem corpo, não a implementação na classe mãe. As filhas são obrigadas a implementar.
+	// metodo sem corpo, não existe implementação na classe mãe. As filhas são obrigadas a implementar.
 	public abstract double getBonificacao();
 
 	public String getNome() {

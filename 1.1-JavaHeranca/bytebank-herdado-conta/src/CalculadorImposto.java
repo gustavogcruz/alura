@@ -5,7 +5,7 @@ public class CalculadorImposto {
 	
 	public void registra (Tributavel t) {
 		double valor = t.getValorImposto();
-		this.totalImposto =  valor;
+		this.totalImposto +=  valor;
 	}
 	
 	public double getTotalImposto() {

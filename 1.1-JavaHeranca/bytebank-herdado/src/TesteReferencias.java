@@ -3,6 +3,8 @@ public class TesteReferencias {
 	
 	public static void main(String[] args) {
 		
+		//Funcionario g1 = new Gerente() // Tipo mais genérico (Funcionário).
+		
 		Gerente g1 = new Gerente();		
 		//g1.setNome("Luciana Neves de Souza Cruz");
 		//String nome = g1.getNome();

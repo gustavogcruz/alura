@@ -1,5 +1,6 @@
 // define um contrato
- //quem assina o contrato tem obrigações
+//quem assina o contrato tem obrigações
+//Precisa implementar - setSenha() e autentica()
 
 public abstract interface Autenticavel {
 

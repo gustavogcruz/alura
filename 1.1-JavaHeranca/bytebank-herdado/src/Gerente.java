@@ -1,4 +1,4 @@
-//Gerente é um funcionário, herda da classe Funcionario
+//Gerente é um funcionário, herda da classe Funcionario, assina o contrato de Autenticavel, eh um autenticavel
 public class Gerente extends Funcionario implements Autenticavel {
 
 	private AutenticacaoUtil autenticador;
@@ -22,7 +22,7 @@ public class Gerente extends Funcionario implements Autenticavel {
 	public double getBonificacao() {
 		System.out.println("Herdado Gerente");
 		// return super.getBonificacao() + super.getSalario();
-		return super.getSalario();
+		return super.getSalario(); //super - buscando da classe mãe
 	}
 
 }

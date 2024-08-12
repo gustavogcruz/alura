@@ -1,7 +1,6 @@
 
 public interface Tributavel {
 	
-	//public abstract - padrão já é tratado
+	//public abstract - padrão, já é tratado
 	double getValorImposto();
-
 }

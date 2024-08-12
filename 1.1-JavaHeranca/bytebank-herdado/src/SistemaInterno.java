@@ -3,7 +3,7 @@ public class SistemaInterno {
 
 	private int senha = 2222;
 
-	public void autentica(Autenticavel a) {
+	public void autentica(Autenticavel a) { // interface pode ser usada para definir um tipo
 		boolean autenticou = a.autentica(this.senha);
 		if (autenticou) {
 			System.out.println("Pode entrar no sistema!");

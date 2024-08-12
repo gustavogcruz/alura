@@ -7,18 +7,22 @@ public class TesteContas {
 		cc.deposita(100.0);
 		
 		SeguroDeVida seguro = new SeguroDeVida();
+		AcaoBolsaValores acao = new AcaoBolsaValores();
 		CalculadorImposto imposto = new CalculadorImposto();
+		
 		imposto.registra(seguro);		
+		imposto.registra(acao);
 		imposto.registra(cc);
 		
 		
 		ContaPoupanca cp = new ContaPoupanca(222, 333);
 		cp.deposita(200.00);
 		
-		//cc.transfere(10.0, cp);
+		cc.transfere(10.0, cp);
 		System.out.println("Corrente: R$ " + cc.getSaldo());
 		System.out.println("Imposto: R$: " + imposto.getTotalImposto());
-		//System.out.println("Poupança: R$ " + cp.getSaldo());	
+		//System.out.println(Conta.getTotal());
+		System.out.println("Poupança: R$ " + cp.getSaldo());	
 		
 	}
 

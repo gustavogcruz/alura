@@ -20,7 +20,7 @@ public class CriaConta {
 		if(primeiraConta == segundaConta) {
 			System.out.println("Mesma Conta");
 		} else {
-			System.out.println("Conta Diferente");
+			System.out.println("Contas Diferentes");
 		}
 		
 	}

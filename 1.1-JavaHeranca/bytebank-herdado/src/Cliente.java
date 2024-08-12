@@ -1,4 +1,4 @@
-
+//Assina o contrato de Autenticavel, eh um autenticavel
 public class Cliente implements Autenticavel {
 
 	private AutenticacaoUtil autenticador;

@@ -1,4 +1,4 @@
-
+//Administrador é um funcionário, herda da classe Funcionario, assina o contrato de Autenticavel, eh um autenticavel
 public class Administrador extends Funcionario implements Autenticavel {
 
 	private AutenticacaoUtil autenticador;
