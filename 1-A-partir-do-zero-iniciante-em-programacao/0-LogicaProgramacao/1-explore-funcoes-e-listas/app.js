@@ -1,3 +1,5 @@
+//https://eloquentjavascript.net/
+
 let listaNumerosSorteados = [];
 let numeroLimiteLista = 10;
 let numeroSecreto = gerarNumeroAleatorio();
