@@ -2,14 +2,14 @@ package br.com.alura.service;
 
 import java.io.IOException;
 import java.net.http.HttpResponse;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
-import com.google.gson.JsonArray;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 import br.com.alura.client.ClientHttpConfiguration;
+import br.com.alura.domain.Abrigo;
 
 public class AbrigoService {
 	
@@ -21,17 +21,27 @@ public class AbrigoService {
 	
 
 	public void listarAbrigos() throws IOException, InterruptedException {
-		
+
 		String uri = "http://localhost:8080/abrigos";
 		HttpResponse<String> response = client.dispararRequisicaoGet(uri);
 		String responseBody = response.body();
-		JsonArray jsonArray = JsonParser.parseString(responseBody).getAsJsonArray();
+
+		Abrigo[] abrigos = new ObjectMapper().readValue(responseBody, Abrigo[].class);
+		List<Abrigo> abrigoList = Arrays.stream(abrigos).toList();
+		if (abrigoList.isEmpty()) {
+			System.out.println("Não há abrigos cadastrados!"
+					+ "");
+		} else {
+				mostrarAbrigos(abrigoList);
+			}
+		}
+
+	public void mostrarAbrigos(List<Abrigo> abrigos) {
 		System.out.println("Abrigos cadastrados:");
-		
-		for (JsonElement element : jsonArray) {
-			JsonObject jsonObject = element.getAsJsonObject();
-			long id = jsonObject.get("id").getAsLong();
-			String nome = jsonObject.get("nome").getAsString();
+
+		for (Abrigo abrigo : abrigos) {
+			long id = abrigo.getId();
+			String nome = abrigo.getNome();
 			System.out.println(id + " - " + nome);
 		}
 	}
@@ -43,14 +53,12 @@ public class AbrigoService {
 		String telefone = new Scanner(System.in).nextLine();
 		System.out.println("Digite o email do abrigo:");
 		String email = new Scanner(System.in).nextLine();
+		
+		Abrigo abrigo = new Abrigo(nome, telefone, email);
 
-		JsonObject json = new JsonObject();
-		json.addProperty("nome", nome);
-		json.addProperty("telefone", telefone);
-		json.addProperty("email", email);
-
-		String uri = "http://localhost:8080/abrigos";		
-		HttpResponse<String> response = client.dispararRequisicaoPost(uri, json);
+		String uri = "http://localhost:8080/abrigos";	
+		
+		HttpResponse<String> response = client.dispararRequisicaoPost(uri, abrigo);
 		int statusCode = response.statusCode();
 		String responseBody = response.body();
 		if (statusCode == 200) {
