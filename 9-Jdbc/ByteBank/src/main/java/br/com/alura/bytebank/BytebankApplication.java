@@ -10,8 +10,9 @@ import java.util.Scanner;
 public class BytebankApplication {
 
     private static ContaService service = new ContaService();
-    private static Scanner teclado = new Scanner(System.in).useDelimiter("\n");
-
+    private static Scanner teclado = new Scanner(System.in);; //.useDelimiter("\n");
+    
+	
     public static void main(String[] args) {
         var opcao = exibirMenu();
         while (opcao != 7) {
@@ -37,10 +38,11 @@ public class BytebankApplication {
                         break;
                 }
             } catch (RegraDeNegocioException e) {
-                System.out.println("Erro: " +e.getMessage());
+                System.out.println("Erro: " + e.getMessage());
                 System.out.println("Pressione qualquer tecla e de ENTER para voltar ao menu");
                 teclado.next();
             }
+            
             opcao = exibirMenu();
         }
 
