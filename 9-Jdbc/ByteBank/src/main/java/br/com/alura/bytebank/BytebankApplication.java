@@ -15,7 +15,7 @@ public class BytebankApplication {
 	
     public static void main(String[] args) {
         var opcao = exibirMenu();
-        while (opcao != 7) {
+        while (opcao != 8) {
             try {
                 switch (opcao) {
                     case 1:
@@ -36,6 +36,9 @@ public class BytebankApplication {
                     case 6:
                         realizarDeposito();
                         break;
+                    case 7:
+                    	listarContaPorNumero();
+                    	break;
                 }
             } catch (RegraDeNegocioException e) {
                 System.out.println("Erro: " + e.getMessage());
@@ -58,7 +61,8 @@ public class BytebankApplication {
                 4 - Consultar saldo de uma conta
                 5 - Realizar saque em uma conta
                 6 - Realizar depósito em uma conta
-                7 - Sair
+                7 - Listar Conta pelo número
+                8 - Sair
                 """);
         return teclado.nextInt();
     }
@@ -67,6 +71,17 @@ public class BytebankApplication {
         System.out.println("Contas cadastradas:");
         var contas = service.listarContasAbertas();
         contas.stream().forEach(System.out::println);
+
+        System.out.println("Pressione qualquer tecla e de ENTER para voltar ao menu principal");
+        teclado.next();
+    }
+    
+    private static void listarContaPorNumero() {
+        System.out.println("Digite o número da conta:");
+        var numeroDaConta = teclado.nextInt();
+        
+        var conta = service.buscarContaPorNumero(numeroDaConta);
+        System.out.println(conta);
 
         System.out.println("Pressione qualquer tecla e de ENTER para voltar ao menu principal");
         teclado.next();
