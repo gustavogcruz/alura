@@ -3,15 +3,23 @@ package br.com.alura.loja.modelo;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Inheritance;
+import javax.persistence.InheritanceType;
 import javax.persistence.ManyToOne;
+import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
 @Entity
 @Table(name = "produtos")
+@NamedQuery(name = "Produto.produtosPorCategoria", query="SELECT p FROM Produto p WHERE p.categoria.nome = :pnome")
+//@Inheritance(strategy = InheritanceType.SINGLE_TABLE) - herança usando uma única tabela
+//@Inheritance(strategy = InheritanceType.JOINED) - herança usando várias tabelas
 public class Produto {
 	
 	@Id
@@ -21,9 +29,10 @@ public class Produto {
 	//@Column(name ="desc")
 	private String descricao;
 	private BigDecimal preco;
+	@Column(name="data_cadastro")
 	private LocalDate dataCadastro = LocalDate.now();
 	
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Categoria categoria;	
 	
 	public Produto() {
@@ -67,5 +76,10 @@ public class Produto {
 		this.categoria = categoria;
 	}	
 	
+	@Override
+	public String toString() {		
+		return "Detalhe Produto [Produto: " + nome + ", Valor: R$ " + preco
+				+ ", Categoria: " + categoria.getNome() + "]";
+	}
 	
 }
