@@ -15,12 +15,12 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import med.voll.api.domain.endereco.Endereco;
 
-@Table(name = "medicos")
-@Entity(name = "Medico")
-@Getter
-@NoArgsConstructor
-@AllArgsConstructor
-@EqualsAndHashCode(of = "id")
+@Table(name = "medicos") // tabela banco de dados
+@Entity(name = "Medico") // classe que representa
+@Getter //  Lombok - gera os getter
+@NoArgsConstructor //  Lombok - gera o construtor sem argumentos
+@AllArgsConstructor // Lompbok - gera o construtor com argumentos
+@EqualsAndHashCode(of = "id") // Lombok - gera o equals e hashcode sobre o ID
 
 public class Medico {
 	
@@ -58,13 +58,11 @@ public class Medico {
         }
         if (dados.endereco() != null) {
             this.endereco.atualizarInformacoes(dados.endereco());
-        }
-		
+        }		
 	}
 
 	public void excluir() {
-		this.ativo = false;
-		
-	}  
-    
+		this.ativo = false;		
+	}
+	
 }

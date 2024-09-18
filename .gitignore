@@ -13,3 +13,7 @@
 7-SpringBoot/.metadata
 8-Refatoracao/.metadata
 9-Jdbc/.metadata
+10-JPA/.metadata
+
+### Maven ###
+drivers/

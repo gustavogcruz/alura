@@ -7,7 +7,7 @@ import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Pattern;
 import med.voll.api.domain.endereco.DadosEndereco;
 
-public record DadosCadastroMedico(
+public record DadosCadastroMedico( //NotBlank - não pode ser vazio e nulo (NotNull)	 
 		@NotBlank(message = "{nome.obrigatorio}")
 		String nome, 		
 	    @NotBlank(message = "{email.obrigatorio}")
@@ -20,7 +20,7 @@ public record DadosCadastroMedico(
 		String crm, 
 		@NotNull(message = "{especialidade.obrigatoria}")
 		Especialidade especialidade,
-		@NotNull(message = "{endereco.obrigatorio}") @Valid		
+		@NotNull(message = "{endereco.obrigatorio}") @Valid	//valida o objeto DadosEndereco	
 		DadosEndereco endereco ) {
 	
 

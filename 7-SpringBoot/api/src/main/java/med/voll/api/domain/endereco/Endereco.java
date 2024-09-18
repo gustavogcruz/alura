@@ -7,9 +7,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 
-@Getter
-@NoArgsConstructor
-@AllArgsConstructor
+@Getter // Lombok - gera getter
+@NoArgsConstructor // Lombok - contructor padrão sem argumentos
+@AllArgsConstructor // Lombok - construtor com todos os campos
 @Embeddable
 public class Endereco {
 	

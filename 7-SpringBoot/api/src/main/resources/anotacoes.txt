@@ -1,0 +1,15 @@
+/*
+ * API Rest - Controller
+ * Repository - simplica acesso ao banco pela JPA
+ * Pom - para projetos Maven 
+ * Spring - módulo Web, Validação, Sprint Data JPA
+ * Lombok - anotações
+ * MySql - bd
+ * Flyway - migrations
+ * 
+ */
+
+Validation
+
+https://jakarta.ee/specifications/bean-validation/3.0/jakarta-bean-validation-spec-3.0.html#builtinconstraints
+
