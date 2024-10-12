@@ -13,3 +13,14 @@ Validation
 
 https://jakarta.ee/specifications/bean-validation/3.0/jakarta-bean-validation-spec-3.0.html#builtinconstraints
 
+/*
+* Annotations
+*
+* Valid - usado para validar regras em campos. Exemplo: @NotBlank, @Email
+* 
+*
+*
+*
+*
+*
+*/
